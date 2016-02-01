@@ -12,7 +12,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   font-family: sans-serif;
-  background-color: #d0ea57;
+  background-color: $background;
 }
 
 *, *:before, *:after {
@@ -25,11 +25,11 @@ header {
 }
 
 h1 {
-  color: #556d13;
+  color: $darkgreen;
 }
 
 .btn {
-  color: #794aa0;
+  color: $purple;
   font-weight: bold;
   text-decoration: none;
   display: inline-block;
@@ -39,7 +39,7 @@ h1 {
 .btn:hover,
 .btn:active,
 .btn:focus {
-  color: #556d13;
+  color: $darkgreen;
 
   text-decoration: underline;
   -webkit-transition: all 500ms ease-out;
