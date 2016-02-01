@@ -1,5 +1,5 @@
 /* Variables */
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Coming+Soon);
 /*
   Gridifier || Code released under the UNLICENSE
   http://gridifier.web-dev.tools/#xs,4,0,0,0;s,4,25,0,0;m,4,38,1,1;l,4,60,1,1
@@ -591,7 +591,7 @@ header {
 
 h1 {
   color: #556d13;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Coming Soon", Arial, sans-serif;
 }
 
 .btn {
