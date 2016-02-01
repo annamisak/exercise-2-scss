@@ -33,16 +33,6 @@ h1 {
   @include button;
 }
 
-.btn:hover,
-.btn:active,
-.btn:focus {
-  color: $darkgreen;
-
-  text-decoration: underline;
-  -webkit-transition: all 500ms ease-out;
-  transition: all 500ms ease-out;
-}
-
 .btn i {
   vertical-align: middle;
 }

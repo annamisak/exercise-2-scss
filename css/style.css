@@ -608,15 +608,6 @@ h1 {
   transition: all 500ms ease-out;
 }
 
-.btn:hover,
-.btn:active,
-.btn:focus {
-  color: #556d13;
-  text-decoration: underline;
-  -webkit-transition: all 500ms ease-out;
-  transition: all 500ms ease-out;
-}
-
 .btn i {
   vertical-align: middle;
 }
