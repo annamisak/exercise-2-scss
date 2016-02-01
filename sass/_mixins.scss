@@ -1,0 +1,14 @@
+@mixin button {
+  color: $purple;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 8em;
+  &:hover{
+    color: $darkgreen;
+
+    text-decoration: underline;
+    -webkit-transition: all 500ms ease-out;
+    transition: all 500ms ease-out;
+  }
+}

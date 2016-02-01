@@ -334,7 +334,7 @@
 }
 
 html {
-  font: normal 100%/1.5 "Abril Fatface", serif;
+  font: normal 100%/1.5, serif;
 }
 
 @media only screen and (min-width: 60em) {
@@ -375,7 +375,6 @@ fieldset, pre, table {
 h1, .exa {
   font-size: 1.8020rem;
   line-height: 1.6648;
-  font-family: "Coming Soon";
 }
 
 h2, .peta {
@@ -600,6 +599,13 @@ h1 {
   text-decoration: none;
   display: inline-block;
   font-size: 8em;
+}
+
+.btn:hover {
+  color: #556d13;
+  text-decoration: underline;
+  -webkit-transition: all 500ms ease-out;
+  transition: all 500ms ease-out;
 }
 
 .btn:hover,
